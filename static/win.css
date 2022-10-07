@@ -1,0 +1,36 @@
+th,td {
+    border: 5px solid black;
+    padding: 10px;
+}
+table{
+    height: 20px;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+}
+
+
+body{
+    background-color: #247524;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 130px;
+}
+
+
+#replay{  
+    font-size: 50px;
+    background-color: white;
+    border: 5px solid rgb(37, 34, 34);
+    border-radius: 800px;
+    padding: 35px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+   

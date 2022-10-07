@@ -1,0 +1,85 @@
+h1 {
+    font-size:100px;
+    text-align: center;
+}
+
+
+.niveaux{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.replay{  
+    color: azure;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    background:url(https://tse2.mm.bing.net/th?id=OIP.-8SP7Eh7D1iSHo5B1nXloAHaFO&pid=Api&P=0&w=231&h=163);
+    background-position: bottom;
+    background-size: 170%;
+    border: 0;    
+}
+
+.replay:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 200px;
+}
+
+.replay2{  
+    color: azure;
+    border-radius: 20px;
+    background:url(https://media.istockphoto.com/vectors/gold-desert-in-sunset-sand-dunes-landscape-design-vector-illustration-vector-id861230652?k=20&m=861230652&s=612x612&w=0&h=wJdxIkI_3CJRUvkmQjFY-WM1t6UiSTmUDHRlKOO4_o8=);
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    background-position: center;
+    border: 0;
+}
+
+.replay2:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 200px;
+}
+
+.replay3{  
+    color: azure;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    background:url(https://images.pond5.com/cave-lava-underground-hell-landscape-illustration-158725490_iconl_wide_nowm.jpeg);
+    background-size: 250%;
+    border: 0;
+}
+
+.replay3:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 200px;
+}
+
+#pseudo{
+    border: 2px solid rgb(0, 0, 0);
+    width: 45%;
+    border-radius: 800px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+    display: block;
+    margin:auto;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 30px;
+ }
+

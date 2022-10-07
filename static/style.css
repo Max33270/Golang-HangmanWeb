@@ -1,0 +1,35 @@
+.entete{
+    text-align: center;
+    font-size: 50px;
+}
+.word{
+    letter-spacing: 10px;
+}
+
+.main{
+    display: flex;
+    height: 500px;
+}
+.menu{
+    font-size: 50px;
+    text-align: center;
+    flex: 1;
+    display: inline-block;
+}
+
+.contenu{
+    font-size: 50px;
+    text-align: center;
+    width: 50%;
+}
+.button{
+    border: 2px solid rgb(0, 0, 0);
+    width: 45%;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+    display: block;
+    margin:auto;
+}
