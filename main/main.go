@@ -145,8 +145,10 @@ func main() {
 	//Show #CSS
 	fs := http.FileServer(http.Dir("./static"))
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
+	
+	portNumber := ":8080"
 
-	fmt.Println("Listening at http://localhost:8080")
-	http.ListenAndServe("localhost:8080", nil)
+	fmt.Println("Listening on" + portNumber)
+	http.ListenAndServe(portNumber, nil)
 
 }
